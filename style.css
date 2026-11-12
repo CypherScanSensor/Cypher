@@ -1,0 +1,165 @@
+html {
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    color: rgb(61, 165, 196);
+    max-width: 1100px;
+    font-size: 18px;
+    margin-left: 180px;
+}
+
+header {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 90px;
+}
+
+.eslogan {
+    font-size: 30px;
+}
+
+.Logo {
+    max-width: 250px;   
+    border-radius: 20%;
+}
+
+.contenedor {
+    background-color: rgb(65, 64, 64);
+    max-width: 1000px;
+    padding: 40px 50px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.contenedor h2 {
+    font-size: 40px;
+    border-bottom: 2px solid;
+    color: rgb(61, 165, 196);
+}
+
+.contenedor h3 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: rgb(100, 200, 230);
+}
+
+img {
+    border-radius: 12px;
+    max-width: 100%;
+    height: auto;
+}
+
+.imagen-ancha {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.galeria-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.galeria-imagenes img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.galeria-imagenes img:hover {
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+th {
+    background-color: rgb(40, 40, 40);
+    color: rgb(100, 200, 230);
+}
+
+form {
+    max-width: 500px;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(61, 165, 196);
+    background-color: rgb(45, 45, 45);
+    color: rgb(61, 165, 196);
+    margin-top: 10px; 
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(61, 165, 196);
+    color: rgb(31, 31, 31);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.menu {
+    position: fixed;
+    left: 0;
+    height: 100%;
+    width: 160px;
+    background-color: rgb(40, 40, 40);
+    border-right: 2px solid rgb(61, 165, 196);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+    padding: 20px 12px;
+}
+
+.menu a {
+    color: rgb(61, 165, 196);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: rgb(61, 165, 196);
+    color: rgb(31, 31, 31);
+}
+
+.logo-menu {
+    width: 90px;
+    height: auto;
+    border-radius: 20%;
+    margin: 0 auto 20px auto;
+}

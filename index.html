@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cypher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="menu">
+  <img src="img/Logo equipo alto voltaje.PNG" class="logo-menu">
+    <a href="#inicio">Inicio</a>
+    <a href="#problema">Problema</a>
+    <a href="#solucion">Solución</a>
+    <a href="#componentes">Componentes</a>   
+    <a href="#proceso">Proceso</a>
+    <a href="#ingles">Ingles</a>
+    <a href="#video-QR">Video</a>
+    <a href="#galeria">Galería</a>
+    <a href="#equipo-contacto">Equipo y contacto</a>
+</nav>
+
+<header id="inicio">
+    <h1 class="titulo">Cypher Scan Sensor</h1>
+    <img src="img/Logo equipo alto voltaje.PNG" alt="Logo Cypher" class="Logo">
+    <p class="eslogan">Nada como un ambiente seguro</p>
+</header>
+
+<div class="contenedor" id="problema">
+    <h2>¿Qué problema resuelve?</h2>
+    <p>
+      Cypher detecta fugas de gas peligrosas en tiempo real y actúa automáticamente.
+      Alerta a las personas cercanas con luz y sonido, y si el nivel es extremo,
+      activa un extractor para sacar el gas de la habitación.
+    </p>
+    <h2>¿Por qué es importante?</h2>
+    <p>
+      Protege hogares, especialmente
+      a personas mayores, de accidentes y asfixia.
+    </p>
+</div>
+
+<div class="galeria-imagenes">
+    <img src="img/image sensor 1.jpg" alt="Imagen principal del proyecto" class="imagen-1">
+    <img src="img/image sensor 2.jpg" alt="Imagen principal del proyecto" class="imagen-2">
+</div>
+
+<div class="contenedor">
+    <h2>Sobre el proyecto:</h2>
+    <p>
+      Durante el año identificamos un problema real: las fugas de gas en hogares y ambientes cerrados.
+       Aunque el gas tiene olor, muchas personas no saben cómo reaccionar a tiempo.
+    </p>
+
+    <h3>Problema detectado:</h3>
+    <p>
+      Fugas de gas que pueden causar asfixia o accidentes graves si no se detectan y se actúa de inmediato.
+    </p>
+
+    <h3>Usuarios afectados:</h3>
+    <ul>
+        <li>Público general</li>
+        <li>Personas de la tercera edad (grupo prioritario por posibles descuidos)</li>
+        <li>Familias y espacios compartidos</li>
+        <li>Estudiantes y Profesores en espacios de estudio</li>
+        <li>Trabajadores de oficina o en empresas (con espacios cerrados)</li>
+    </ul>    
+
+    <h3>Impacto:</h3>
+    <p>
+      Cypher brinda una capa extra de seguridad en las casas, reduce el riesgo de accidentes
+       y da tranquilidad constante a las familias.
+    </p>
+</div>
+
+<div class="contenedor" id="solucion">
+    <h2>Nuestra solución:</h2>
+    <p>
+      Cypher es un sistema inteligente basado en micro:bit y sensor de gas que no solo avisa del peligro,
+       sino que también actúa para despejar el ambiente.
+    </p>
+    
+    <h3>Cómo funciona:</h3>
+    <ul>
+        <li>El sensor mide constantemente el nivel de gas en el ambiente.</li>
+        <li>Si el nivel supera el límite seguro, se activa una alerta visual (LED) y sonora (buzzer).</li>
+        <li>Si el nivel es extremo, se enciende automáticamente un extractor que saca el gas de la habitación.</li>
+        <li>Cuando el gas vuelve a niveles seguros, el sistema vuelve a modo reposo y queda listo para una nueva detección.</li>
+    </ul>
+    
+    <h3>Beneficios:</h3>
+    <ol>
+        <li>Alerta temprana y automática</li>
+        <li>Extracción del gas sin intervención humana</li>
+        <li>Bajo consumo energético</li>
+        <li>Diseño simple y fácil de instalar</li>
+        <li>Protección continua las 24 horas</li>
+    </ol>
+</div>
+
+<div class="contenedor" id="componentes">
+    <h2>Componentes y materiales</h2>
+    
+    <h3>Lista de componentes</h3>
+    <ul>
+        <li>Sensor analógico de gas</li>
+        <li>Placa microbit</li>
+        <li>LED de alerta</li>
+        <li>Buzzer de alerta</li>
+        <li>Extractor/Ventilador</li>
+    </ul>
+
+    <h3>Tabla de materiales:</h3>
+    <table>
+        <tr>
+          <th>Componente</th>
+          <th>Cantidad</th>
+          <th>Función</th>
+        </tr>
+        <tr>
+          <td>Sensor de gas</td>
+          <td>1</td>
+          <td>Detecta la presencia y nivel de gas en el aire</td>
+        </tr>
+        <tr>
+          <td>microbit</td>
+          <td>1</td>
+          <td>Procesa la información y controla las acciones</td>
+        </tr>
+        <tr>
+          <td>LED</td>
+          <td>1</td>
+          <td>Alerta visual cuando se detecta gas</td>
+        </tr>
+        <tr>
+          <td>Buzzer</td>
+          <td>1</td>
+          <td>Alerta auditiva cuando se detecta gas</td>
+        </tr>
+        <tr>
+          <td>Extractor</td>
+          <td>1</td>
+          <td>Extrae el gas del ambiente en niveles extremos</td>
+        </tr>
+    </table>
+
+    <h3>Imágenes de componentes</h3>
+    <div class="galeria-imagenes">
+        <img src="img/Captura de pantalla 2026-10-16 231709.png">
+        <img src="img/Captura de pantalla 2026-10-16 231839.png">
+        <img src="img/Captura de pantalla 2026-10-16 231905.png">
+        <img src="img/Captura de pantalla 2026-10-16 231948.png">
+        <img src="img/Captura de pantalla 2026-10-16 232151.png">
+        <img src="img/Captura de pantalla 2026-10-16 232232.png">
+    </div>
+</div>
+
+<div class="contenedor" id="proceso">
+    <h2>Proceso de trabajo</h2>
+
+    <h3>Boceto</h3>
+    <div class="imagen-ancha">
+        <img src="img/Boceto 1.jpg" alt="Boceto 1">
+    </div>
+
+    <h3>Moodboard</h3>
+    <img src="img/moodboard.png" alt="Moodboard del proyecto" class="imagen-ancha">
+
+    <h3>Capturas de programación</h3>
+    <p>En Bloques y JavaScript</p>
+    <div class="galeria-imagenes">
+        <img src="img/Captura codigo 1.png" alt="Captura de código 1">
+        <img src="img/Captura codigo 2.png" alt="Captura de código 2">
+    </div>
+
+    <h3>Versiones del proyecto</h3>
+    <ul>
+        <li>
+          Versión 1 - En esta versión nos centramos en decidir el proyecto y ver todos lo quez nececitariamos para llevarlo a cavo.
+        </li>
+        <li>
+          Versión 2 - En esta comenzamos con el armado del prototipo y la escritura del primer codigo en  MakeCode
+        </li>
+        <li>
+          Versión 3 (final) - En esta terminamos el codigo final y pensamos en el armado final del producto
+        </li>
+    </ul>
+</div>
+
+<div class="contenedor" id="ingles">
+    <h2>Promotional Text</h2>
+    <p>
+      In Uruguay, we use gas every day. And every year, gas leaks are reported
+      sometimes even causing houses to catch fire. Gas has an odor so we can notice leaks, 
+      but if you're sleeping, distracted, or don't know what to do, that smell isn't enough. 
+      When the gas level rises, every second counts.
+    </p>
+    <p>
+      That's why we created Cypher Scan Sensor,a smart gas sensor 
+      connected to a micro:bit that detects gas in the environment in real time. 
+      If it detects a leak, it activates an alert with light, sound, or image to warn 
+      anyone nearby. And if the gas reaches extreme levels, simply warning people isn't enough: 
+      our system automatically activates an extractor that removes the gas from the room.
+    </p>
+    <p>
+      We built a working prototype with an analog gas sensor, a LED, and a microbit, 
+      and we programmed the code ourselves. We tested it and it worked perfectly.
+    </p>
+    <p>
+      Cypher Scan Sensor: technology at the service of your safety.  
+      Because There’s nothing like a safe environment.
+    </p>
+    
+    <h2>QR Video:</h2>
+    
+      <div class="galeria-imagenes" id="video-QR">
+        <img src="img/QR.png">
+      </div>
+
+    <h3>Guion</h3>
+    <p>
+       SCENE 1 - Hook (0:00-0:12)
+A: In Uruguay, we use gas every day.
+B: And every year, gas leaks are reported, and even houses are set on fire because of them.
+Text on screen: "What if we could warn people before it happens?"
+    </p>
+    <p>
+SCENE 2 - The Problem (0:12-0:28)
+A: Gas has an odor precisely so that we can notice leaks.
+B: But if you're sleeping, distracted, or don't know what to do, that smell isn't enough.
+A: And when the gas level rises, every second counts.
+    </p>
+    <p>
+SCENE 3 - The Solution (0:28-0:48)
+B: That's why we created the Smart Gas Sensor.
+A: A gas sensor connected to a micro:bit that detects gas in the environment.
+B: If it detects a leak, it activates an alert with light, sound, or an image to warn anyone nearby.
+    </p>
+    <p>
+SCENE 4 - Prototype Demonstration (0:48-1:00)
+A: We built a prototype with an analog gas sensor, a red LED, and a micro:bit, and we programmed the code ourselves.
+B: We tested it, and it worked perfectly.
+    </p>
+    <p>
+SCENE 5 - What's Next (1:00-1:12)
+A: And we're going further: if the gas reaches extreme levels, simply warning people isn't enough.
+B: Our next step is to add an extractor that activates automatically and removes the gas from the room.
+    </p>
+    <p>
+SCENE 6 - Closing (1:12-1:25)
+A: Gas is part of our everyday lives, and taking care of ourselves is too.
+B: Smart Gas Sensor: technology at the service of your safety.
+A and B: Because prevention is always better than regret! 
+    </p>
+</div>
+
+<div class="contenedor" id="galeria">
+    <h2>Galería</h2>
+    <p>Imágenes del proceso de creación del proyecto y video de funcionamiento.</p>
+    
+    <div class="galeria-imagenes">
+        <img src="img/WhatsApp Image 2026-07-24 at 10.50.22 AM (1).jpeg" alt="Fotografía 1">
+        <img src="img/WhatsApp Image 2026-07-24 at 10.50.22 AM (2).jpeg" alt="Fotografía 2">
+        <img src="img/WhatsApp Image 2026-07-24 at 10.50.22 AM.jpeg" alt="Fotografía 3">
+        <img src="img/image 1.jpg" alt="Fotografía 4">
+        <img src="img/image 2.jpg" alt="Fotografía 5">
+        <img src="img/101.jpeg" alt="Fotografía 6">
+        <img src="img/102.jpeg" alt="Fotografía 7">
+        <img src="img/104.jpeg" alt="Fotografía 8">
+    </div>
+</div>
+<div class="contenedor" id="equipo-contacto">
+    <h3>Equipo</h3>
+    <table class="tabla-equipo">
+        <tr>
+            <th>Integrante</th>
+            <th>Rol</th>
+        </tr>
+        <tr>
+            <td>Facundo Trinidad</td>
+            <td>programador-diseñador</td>
+        </tr>
+        <tr>
+            <td>Samir Alial</td>
+            <td>tester-diseñador</td>
+        </tr>
+        <tr>
+            <td>Bruno Nuñes</td>
+            <td>tester-programador</td>
+        </tr>
+        <tr>
+            <td>Lautaro Pirez</td>
+            <td>estructurista-diseñador</td>
+        </tr>
+        <tr>
+            <td>Nahim Dufrechou</td>
+            <td>estructurista-diseñador</td>
+        </tr>
+    </table>
+
+    <h3>Contacto</h3>
+
+    <form>
+      <label>Nombre:</label>
+        <input type="text">
+
+      <label>Correo:</label>
+        <input type="email">
+
+      <label>Contraseña:</label>
+        <input type="password">
+
+      <label>Edad:</label>
+        <input type="number">
+
+      <p>Como nos conociste?</p>
+        <input type="checkbox"> Por un amigo/familia
+        <br>
+        <input type="checkbox"> Por redes
+        <br>
+        <input type="checkbox"> Por la escuela
+        <br>
+        <input type="checkbox"> Por otro lado
+
+      <p>Te interesa el proyecto?</p>
+        <input type="checkbox"> Si
+        <br>
+        <input type="checkbox"> No
+        <br>
+        <input type="checkbox"> Tal vez
+
+      <p>Que te parece nuestro proyecto?</p>
+        <input type="checkbox"> Malo
+        <br>
+        <input type="checkbox"> Interesante
+        <br>
+        <input type="checkbox"> Muy bueno
+
+        <label>Comentario:</label>
+        <textarea rows="5"></textarea>
+
+        <button>Enviar</button>
+    </form>
+</div>
+
+</body>
+</html>
